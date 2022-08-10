@@ -38,7 +38,7 @@ class PlateController extends Controller
                     "cor" => "Prata",
                     "pbt" => "185",
                     "placa" => $plate,
-                    "chassi" => "CHASSI",
+                    "chassi" => "98M50AA08L4A87396",
                     "n_motor" => "MOTOR",
                     "potencia" => "142",
                     "municipio" => "CIDADE",
