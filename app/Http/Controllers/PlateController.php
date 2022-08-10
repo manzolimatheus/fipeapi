@@ -47,7 +47,7 @@ class PlateController extends Controller
                     "combustivel" => "Alcool / Gasolina",
                     "procedencia" => "Nacional",
                     "caixa_cambio" => null,
-                    "marca_modelo" => "Bmw\/x1 S201 Active Flex",
+                    "marca_modelo" => "Bmw/x4 Xdrive 28i",
                     "tipo_montagem" => "Completa",
                     "tipo_carroceria" => null,
                     "tipo_de_veiculo" => $tipos_veiculo[array_rand($tipos_veiculo)],
