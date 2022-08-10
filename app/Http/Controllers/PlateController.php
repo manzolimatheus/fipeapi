@@ -26,6 +26,8 @@ class PlateController extends Controller
 
             return response()->json($data, 400);
         }
+        
+        $tipos_veiculo = ["Automovel", "Motocicleta"];
 
         $data = [
             "veiculo" => [
@@ -44,10 +46,10 @@ class PlateController extends Controller
                 "combustivel" => "Alcool / Gasolina",
                 "procedencia" => "Nacional",
                 "caixa_cambio" => null,
-                "marca_modelo" => "Renault/duster D 4x4",
+                "marca_modelo" => "Bmw\/x1 S201 Active Flex",
                 "tipo_montagem" => "Completa",
                 "tipo_carroceria" => null,
-                "tipo_de_veiculo" => "Camioneta",
+                "tipo_de_veiculo" => $tipos_veiculo[array_rand($tipos_veiculo)],
                 "eixo_traseiro_dif" => null,
                 "situacao_do_chassi" => null,
                 "capacidade_de_carga" => "49",
