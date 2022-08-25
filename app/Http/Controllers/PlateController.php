@@ -62,6 +62,11 @@ class PlateController extends Controller
                         "valor" => rand(20000, 200000),
                         "codigo" => "025186-0",
                         "marca_modelo" => "Renault Duster Dynamique 4x4 2.0 Hi-Flex 16v Mec"
+                    ],
+                    [
+                        "valor" => rand(20000, 200000),
+                        "codigo" => "025123-0",
+                        "marca_modelo" => "Renault Duster Dynamique 4x4 2.0/2.0 Hi-Flex 16v Mec"
                     ]
                 ]
             ]
