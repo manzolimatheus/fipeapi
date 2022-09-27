@@ -74,6 +74,6 @@ class PlateController extends Controller
         
         $empty = ['message' => 'Limite de uso atingido'];
 
-        return response()->json($empty);
+        return response()->json($data);
     }
 }
